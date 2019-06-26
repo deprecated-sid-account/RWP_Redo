@@ -1,8 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-  <testsuite name="CodeIgniter Application Test Suite" tests="1" assertions="1" failures="0" errors="0" time="0.021397">
-    <testsuite name="Welcome_test" file="/root/swift/application/tests/controllers/Welcome_test.php" tests="1" assertions="1" failures="0" errors="0" time="0.021397">
-      <testcase name="test_index" class="Welcome_test" file="/root/swift/application/tests/controllers/Welcome_test.php" line="13" assertions="1" time="0.021397"/>
+  <testsuite name="CodeIgniter Application Test Suite" tests="1" assertions="0" failures="0" errors="1" time="0.015288">
+    <testsuite name="Welcome_test" file="/root/RWP_Redo/application/tests/controllers/Welcome_test.php" tests="1" assertions="0" failures="0" errors="1" time="0.015288">
+      <testcase name="test_index" class="Welcome_test" file="/root/RWP_Redo/application/tests/controllers/Welcome_test.php" line="13" assertions="0" time="0.015288">
+        <error type="ParseError">Welcome_test::test_index
+ParseError: syntax error, unexpected '$data' (T_VARIABLE)
+
+/root/RWP_Redo/application/controllers/Welcome.php:34
+/root/RWP_Redo/application/tests/_ci_phpunit_test/CIPHPUnitTestRequest.php:267
+/root/RWP_Redo/application/tests/_ci_phpunit_test/CIPHPUnitTestRequest.php:151
+/root/RWP_Redo/application/tests/_ci_phpunit_test/CIPHPUnitTestCase.php:183
+/root/RWP_Redo/application/tests/controllers/Welcome_test.php:15
+</error>
+      </testcase>
     </testsuite>
   </testsuite>
 </testsuites>
